@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="E-CommerceData/E-CommerceData.csproj" />
+  <Project Path="E-CommerceManagementSystemWebAPI/E-CommerceManagementSystemWebAPI.csproj" />
+</Solution>

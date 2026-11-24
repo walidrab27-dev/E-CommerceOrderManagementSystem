@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/Categories/GetAllCategories": {
+    "/Category": {
       "get": {
         "tags": [
-          "Categories"
+          "Category"
         ],
         "responses": {
           "200": {
@@ -17,10 +17,10 @@
         }
       }
     },
-    "/Categories/{id}": {
+    "/Category/{id}": {
       "get": {
         "tags": [
-          "Categories"
+          "Category"
         ],
         "parameters": [
           {
@@ -40,7 +40,7 @@
         }
       }
     },
-    "/Product/GetAllProducts": {
+    "/Product": {
       "get": {
         "tags": [
           "Product"
@@ -52,7 +52,7 @@
         }
       }
     },
-    "/Product/{id}": {
+    "/Product/GetProductById/{id}": {
       "get": {
         "tags": [
           "Product"
@@ -75,7 +75,7 @@
         }
       }
     },
-    "/Product/{name}": {
+    "/Product/GetProductByName/{name}": {
       "get": {
         "tags": [
           "Product"
@@ -97,7 +97,7 @@
         }
       }
     },
-    "/Product/{categoryName}": {
+    "/Product/GetProductBycategory/{categoryName}": {
       "get": {
         "tags": [
           "Product"
@@ -119,7 +119,7 @@
         }
       }
     },
-    "/Product/{isAvailable}": {
+    "/Product/GetProductByAvailablity/{isAvailable}": {
       "get": {
         "tags": [
           "Product"

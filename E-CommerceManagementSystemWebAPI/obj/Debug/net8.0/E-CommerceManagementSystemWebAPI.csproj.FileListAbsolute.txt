@@ -147,3 +147,4 @@ C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-Commerc
 C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceManagementSystemWebAPI\obj\Debug\net8.0\E-CommerceManagementSystemWebAPI.pdb
 C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceManagementSystemWebAPI\obj\Debug\net8.0\E-CommerceManagementSystemWebAPI.genruntimeconfig.cache
 C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceManagementSystemWebAPI\obj\Debug\net8.0\ref\E-CommerceManagementSystemWebAPI.dll
+C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceManagementSystemWebAPI\obj\Debug\net8.0\E-CommerceManagementSystemWebAPI.sourcelink.json

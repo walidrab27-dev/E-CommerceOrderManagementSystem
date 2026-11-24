@@ -9,7 +9,7 @@ namespace E_CommerceManagementSystemWebAPI.Controllers
     [Route("[Controller]")]
     public class ProductController : ControllerBase
     {
-        [HttpGet("GetAllProducts")]
+        [HttpGet()]
         public IActionResult GetAllProducts()
         {
             using E_CommerceManagementSystemContext context = new E_CommerceManagementSystemContext();
@@ -21,10 +21,10 @@ namespace E_CommerceManagementSystemWebAPI.Controllers
                 Price = p.Price,
                 StockQuantity = p.StockQuantity,
                 IsAvailable = p.IsAvailable
-            });
+            }).ToList();
             return Ok(products);
         }
-        [HttpGet("{id}")]
+        [HttpGet("GetProductById/{id}")]
         public IActionResult GetProductById(int id)
         {
             using E_CommerceManagementSystemContext context = new E_CommerceManagementSystemContext();
@@ -38,9 +38,13 @@ namespace E_CommerceManagementSystemWebAPI.Controllers
                 StockQuantity = p.StockQuantity,
                 IsAvailable = p.IsAvailable
             }).FirstOrDefault();
+            if (product == null)
+            {
+                return NotFound();
+            }
             return Ok(product);
         }
-        [HttpGet("{name}")]
+        [HttpGet("GetProductByName/{name}")]
         public IActionResult GetProductByname(string name)
         {
             using E_CommerceManagementSystemContext context = new E_CommerceManagementSystemContext();
@@ -54,29 +58,37 @@ namespace E_CommerceManagementSystemWebAPI.Controllers
                 StockQuantity = p.StockQuantity,
                 IsAvailable = p.IsAvailable
             }).FirstOrDefault();
+            if(product == null)
+            {
+                return NotFound();
+            }
             return Ok(product);
         }
-        [HttpGet("{categoryName}")]
+        [HttpGet("GetProductBycategory/{categoryName}")]
         public IActionResult GetProductBycategory(string categoryName)
         {
             using E_CommerceManagementSystemContext context = new E_CommerceManagementSystemContext();
-            var product = context.Products.Include(a=>a.Category)
-                .Where(a=>a.Category.Name==categoryName).Select(p=>new ProductDTO
+            var products = context.Products.Include(a => a.Category)
+                .Where(a => a.Category.Name == categoryName).Select(p => new ProductDTO
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Description = p.Description,
+                    Price = p.Price,
+                    StockQuantity = p.StockQuantity,
+                    IsAvailable = p.IsAvailable
+                }).ToList();
+            if(products.Count==0)
             {
-                Id = p.Id,
-                Name = p.Name,
-                Description = p.Description,
-                Price = p.Price,
-                StockQuantity = p.StockQuantity,
-                IsAvailable = p.IsAvailable
-            }).FirstOrDefault();
-            return Ok(product);
+                return NotFound();
+            }
+            return Ok(products);
         }
-        [HttpGet("{isAvailable}")]
+        [HttpGet("GetProductByAvailablity/{isAvailable}")]
         public IActionResult GetProductByAvailablity(bool isAvailable)
         {
             using E_CommerceManagementSystemContext context = new E_CommerceManagementSystemContext();
-            var product = context.Products
+            var products = context.Products
                 .Where(a=>a.IsAvailable==isAvailable).Select(p=>new ProductDTO
             {
                 Id = p.Id,
@@ -85,8 +97,12 @@ namespace E_CommerceManagementSystemWebAPI.Controllers
                 Price = p.Price,
                 StockQuantity = p.StockQuantity,
                 IsAvailable = p.IsAvailable
-            }).FirstOrDefault();
-            return Ok(product);
+            }).ToList();
+            if (products.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(products);
         }
     }
 }

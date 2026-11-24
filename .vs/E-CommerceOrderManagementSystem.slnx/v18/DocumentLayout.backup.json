@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBDAACA1-9048-899D-FF46-88519308619B}|E-CommerceManagementSystemWebAPI\\E-CommerceManagementSystemWebAPI.csproj|c:\\programming\\c# diploma ccs\\projects\\e-commerceordermanagementsystem\\e-commercemanagementsystemwebapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBDAACA1-9048-899D-FF46-88519308619B}|E-CommerceManagementSystemWebAPI\\E-CommerceManagementSystemWebAPI.csproj|solutionrelative:e-commercemanagementsystemwebapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBDAACA1-9048-899D-FF46-88519308619B}|E-CommerceManagementSystemWebAPI\\E-CommerceManagementSystemWebAPI.csproj|c:\\programming\\c# diploma ccs\\projects\\e-commerceordermanagementsystem\\e-commercemanagementsystemwebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBDAACA1-9048-899D-FF46-88519308619B}|E-CommerceManagementSystemWebAPI\\E-CommerceManagementSystemWebAPI.csproj|solutionrelative:e-commercemanagementsystemwebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EF28E9-4A60-1503-CEA9-D4DFD098740A}|E-CommerceData\\E-CommerceData.csproj|c:\\programming\\c# diploma ccs\\projects\\e-commerceordermanagementsystem\\e-commercedata\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EF28E9-4A60-1503-CEA9-D4DFD098740A}|E-CommerceData\\E-CommerceData.csproj|solutionrelative:e-commercedata\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\E-CommerceManagementSystemWebAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "E-CommerceManagementSystemWebAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\E-CommerceManagementSystemWebAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "E-CommerceManagementSystemWebAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:23:17.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\E-CommerceManagementSystemWebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "E-CommerceManagementSystemWebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\E-CommerceManagementSystemWebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "E-CommerceManagementSystemWebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwFcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:14:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\E-CommerceData\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "E-CommerceData\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Programming\\C# Diploma CCS\\Projects\\E-CommerceOrderManagementSystem\\E-CommerceData\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "E-CommerceData\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:49:03.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

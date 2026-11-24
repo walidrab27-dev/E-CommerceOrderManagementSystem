@@ -11,3 +11,4 @@ C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-Commerc
 C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceData\obj\Debug\net8.0\E-CommerceData.pdb
 C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceData\obj\Debug\net8.0\ref\E-CommerceData.dll
 C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceData\obj\Debug\net8.0\E-Commer.48FF41ED.Up2Date
+C:\Programming\C# Diploma CCS\Projects\E-CommerceOrderManagementSystem\E-CommerceData\obj\Debug\net8.0\E-CommerceData.sourcelink.json
